@@ -5,6 +5,7 @@ writeST, much like the original readST, runs in the terminal, because TTY users 
 # Installation
 Just download the writeST executable file and execute it. You should give it an argument for the name of an ST file to open ([like this one](https://raw.githubusercontent.com/DuckDood/readST/refs/heads/main/arch.st)), or else it'll go to the file gallery menu with a history of files you opened (but you haven't opened opened any yet so it'll just give you an error).
 # Building from source
-First, you'll need to install Cargo.
-Then `git clone` the repository.
-Then `cd` into it and execute `cargo run`.
+First, you'll need to install Cargo.<br>
+Then `git clone` the repository.<br>
+Then `cd` into it and execute `cargo run`.<br>
+You need to install Cargo, it's not a default thing (almost forgot about that part)
